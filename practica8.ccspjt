@@ -1,0 +1,62 @@
+[PROJECT]
+Target=practica8.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.076
+Compiler=PCH
+[Target Data]
+FileList=practica8.c
+[practica8.c]
+Type=4
+[mru-list]
+1=practica8.c
+
+[defines]
+buildcount=16
+
+[ProjectLog]
+Days=1
+D1=09-12-2020
+D1_L=28
+D1_L1=[448]Stopped Editing.
+D1_L2=[2113]Started Editing.
+D1_L3=[2413]Stopped Editing.
+D1_L4=[6300]Started Editing.
+D1_L5=[6615]Stopped Editing.
+D1_L6=[6847]Started Editing.
+D1_L7=[7108]Stopped Editing.
+TotalEdit=12
+TotalDebug=0
+D1_E=12
+D1_D=0
+D1_L8=[7109]Project Closed.
+D1_L9=[7129]Project Opened.
+D1_L10=[7236]Started Editing.
+D1_L11=[7615]Stopped Editing.
+D1_L12=[7672]Started Editing.
+D1_L13=[7793]Stopped Editing.
+D1_L14=[7793]Project Closed.
+D1_L15=[7832]Project Opened.
+D1_L16=[7851]Started Editing.
+D1_L17=[8219]Stopped Editing.
+D1_L18=[10212]Project Closed.
+D1_L19=[10224]Project Opened.
+D1_L20=[10230]Started Editing.
+D1_L21=[10931]Stopped Editing.
+D1_L22=[11021]Started Editing.
+D1_L23=[11350]Stopped Editing.
+D1_L24=[22403]Project Closed.
+D1_L25=[23143]Project Opened.
+D1_L26=[23153]Project Closed.
+D1_L27=[24021]Project Opened.
+D1_L28=[24034]Project Closed.
+
+[Opened Files]
+1=practica8.c
+t1=13
+Count=1
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=practica8 (main)

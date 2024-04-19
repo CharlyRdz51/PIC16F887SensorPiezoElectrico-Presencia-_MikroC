@@ -1,0 +1,101 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 @sprintf_string
+006     lcd_init.i
+006     MAIN.@SCRATCH1
+006     @PSTRINGC_693.@SCRATCH1
+007-00A lcd_init.LCD_INIT_STRING
+007     @PSTRINGC_693.@SCRATCH2
+008     lcd_putc.c
+009     lcd_gotoxy.x
+00A     lcd_gotoxy.y
+00B     @delay_ms1.P1
+00B     lcd_gotoxy.address
+00B     lcd_init.@SCRATCH1
+00C     lcd_gotoxy.@SCRATCH1
+00D     lcd_send_byte.address
+00E     lcd_send_byte.n
+00F     lcd_read_byte.low
+00F     lcd_send_byte.@SCRATCH1
+010     lcd_read_byte.high
+010     lcd_send_nibble.n
+011     lcd_read_nibble.n
+011     lcd_read_byte.@SCRATCH1
+012     lcd_read_nibble.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  @const708.call
+000016  @const713.call
+000020  @const714.call
+00002C  @const715.call
+000042  @const716.call
+000050  @const717.call
+000060  @delay_ms1
+000086  lcd_send_nibble
+0000C6  lcd_read_nibble
+000118  lcd_read_byte
+000162  lcd_send_byte
+0001A8  lcd_init
+000224  lcd_gotoxy
+000246  lcd_putc
+000296  @PSTRINGC_693
+0002B6  MAIN
+0002B6  @cinit1
+0002CA  @cinit2
+
+Project Directory:
+    C:\Users\master\Desktop\SeminarioSensores\
+
+Project Files:
+    practica8.c                                             [09-dic-20 03:04  CRC=DAFDEB71]
+    ..\..\..\..\Program Files (x86)\PICC\devices\18f4550.h  [15-ene-18 15:57  CRC=06200171]
+    ..\..\..\..\Program Files (x86)\PICC\drivers\lcd.c      [22-feb-16 09:05  CRC=D1A6378A]
+
+Source signature=846A5BF6
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=6A42
+
+Units:
+    practica8 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   practica8.xsym
+    Errors:      practica8.err
+    Ext Symbols: practica8.esym
+    INHX32:      practica8.hex
+    Symbols:     practica8.sym
+    List:        practica8.lst
+    Debug/COFF:  practica8.cof
+    Project:     practica8.ccspjt
+    Call Tree:   practica8.tre
+    Statistics:  practica8.STA
